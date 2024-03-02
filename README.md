@@ -59,7 +59,7 @@ php artisan migrate
 
 ## Configuração do Front-End
 
-Para acessar e interagir com o aplicativo no navegador é necessário que o front-end esteja em execução. Portanto abra outro terminal e execute os seguintes comandos:
+Para acessar e interagir com o aplicativo no navegador é necessário que o front-end esteja em execução. Portanto abra outro terminal dentro do diretório do seu projeto Laravel e execute os seguintes comandos:
 
 **Isso instalará todas as dependências JavaScript necessárias para o seu projeto Laravel.**
 ```bash
