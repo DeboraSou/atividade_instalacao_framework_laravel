@@ -25,13 +25,13 @@ Em resumo, a diferença entre global e local no contexto do Composer é onde o C
 
 Para começar, crie um novo projeto Laravel executando os seguintes comandos no terminal:
 
+**Instale o Laravel usando o Composer:**
 ```bash
-# Instale o Laravel usando o Composer:
 composer create-project laravel/laravel nome-do-seu-projeto
 ```
 
+**Navegue até o diretório do seu projeto recém-criado:**
 ```bash
-# Navegue até o diretório do seu projeto recém-criado:
 cd nome-do-seu-projeto
 ```
 
@@ -43,17 +43,17 @@ Dentro do diretório do seu projeto Laravel, execute o seguinte comando para ins
 composer require laravel/breeze --dev
 ```
 
-## Configuração a Autenticação
+## Configuração da Autenticação
 
 Após a instalação do Laravel Breeze, execute os seguintes comandos para configurar a autenticação:
 
+**Instale as views e rotas necessárias para autenticação:**
 ```bash
-# Instale as views e rotas necessárias para autenticação:
 php artisan breeze:install
 ```
 
+**Execute as migrações para criar as tabelas de banco de dados necessárias:**
 ```bash
-# Execute as migrações para criar as tabelas de banco de dados necessárias:
 php artisan migrate
 ```
 
@@ -85,6 +85,6 @@ Apos inicializar o servidor local, copie ou clique no endereço http disponibili
 
 Essa estrutura de arquivos do Laravel ajuda a manter o projeto organizado e facilita a localização de arquivos específicos durante o desenvolvimento e a manutenção do aplicativo.
 
-## License
+## Licença
 
 Este projeto está licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
