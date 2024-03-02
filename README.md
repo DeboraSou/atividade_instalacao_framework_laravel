@@ -57,7 +57,21 @@ php artisan breeze:install
 php artisan migrate
 ```
 
-## Inicialização o Servidor Local
+## Configuração do Front-End
+
+Para acessar e interagir com o aplicativo no navegador é necessário que o front-end esteja em execução. Portanto abra outro terminal e execute os seguintes comandos:
+
+**Isso instalará todas as dependências JavaScript necessárias para o seu projeto Laravel.**
+```bash
+npm install
+```
+
+**Isso compilará os recursos frontend, como arquivos JavaScript e CSS, para que seu aplicativo possa usá-los corretamente.**
+```bash
+npm run dev
+```
+
+## Inicialização do Servidor Local
 
 Para visualizar o aplicativo em execução, inicie o servidor local executando o seguinte comando no terminal dentro do diretório do seu projeto Laravel:
 
@@ -67,7 +81,7 @@ php artisan serve
 
 ## Acessar o Aplicativo
 
-Apos inicializar o servidor local, copie ou clique no endereço http disponibilizado, e abra seu navegador para acessar as páginas de login e registro.
+Apos inicializar o servidor local, copie ou clique no endereço http disponibilizado, e abra seu navegador para acessar as páginas de login e registro. 
 
 ## Estrutura de Arquivos
 
